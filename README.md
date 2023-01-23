@@ -12,3 +12,5 @@
 5. To run project in docker run the command below.
     docker-compose up
     our app runs at "http://127.0.0.1:8000/"
+6. To test the application run command below.
+    docker-compose run --rm app sh -c "python manage.py test"
